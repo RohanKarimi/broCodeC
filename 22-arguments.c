@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 //Prototype
-void birthday(char name[], int age){
-    printf("\nHappy birthday dear %s!", name);
-    printf("\nYou are %d years old!", age);
+void birthday(char x[], int y){
+    printf("\nHappy birthday dear %s!", x);
+    printf("\nYou are %d years old!", y);
 }
 
 int main(void){
