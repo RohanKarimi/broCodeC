@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 double square(double num){
-    double result = num * num;
-    return result;
+    return num * num;
 }
 int main(){
     double x = square(3);
