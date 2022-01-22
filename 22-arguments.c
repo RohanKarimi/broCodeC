@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-//Prototype
 void birthday(char x[], int y){
     printf("\nHappy birthday dear %s!", x);
     printf("\nYou are %d years old!", y);

@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// prototype
 int findMax (int x, int y)
 {
     /*if (x > y) 
@@ -9,7 +8,7 @@ int findMax (int x, int y)
     }
     else
     {
-        return y;
+        return y;  
     }*/
 
     return (x > y) ? x : y; 
