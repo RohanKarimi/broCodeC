@@ -6,9 +6,9 @@ int main(void)
 
     double prices[] = {5.0, 10.0, 15.0, 25.0, 20.0};
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < sizeof(prices)/sizeof(prices[0]); i++) // sizeof(prices) = 48 bytes, divided by princes[0] = 8 bytes. Will be 6!
     {
-        
+        printf("$%.2lf\n", prices[i]);
     }
 
     return 0;
