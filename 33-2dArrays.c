@@ -33,7 +33,7 @@ int main(void)
         for(int j = 0; j < columns; j++)
         {
             printf("%d ", numbers[i][j]);
-        }
+        }   
         printf("\n");
     }
 
