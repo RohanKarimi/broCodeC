@@ -1,0 +1,32 @@
+Operador | Nome | Exemplo
+
+= | Assignment     | a = b
++ | Addition       | a + b
+- | Subtraction    | a - b
+* | Multiplication | a * b
+/ | Division       | a / b
+% | Modulo         | a % b
+
++ | Unary plus 	| +a
+- | Unary minus | -a
+++| Increment 	| a++ or ++a // ++2 != 2++  
+--| Decrement 	| a-- or --a
+
+Exemplo: 
+int a = 2;
+int b;
+b = a++ /* b is 2, a is 3 */
+b = ++a /* b is 4, a is 4 */
+
+== | Equal operator 	     | a == b
+!= | Not equal operator 	 | a != b
+>  | Bigger than 	         | a > b
+<  | Less than 	             | a < b
+>= | Bigger than or equal to | a >= b
+<= | Less than or equal to 	 | a <= b
+
++= | Addition assignment 	    | a += b
+-= | Subtraction assignment 	| a -= b
+*= | Multiplication assignment 	| a *= b
+/= | Division assignment 	    | a /= b
+%= | Modulo assignment 	        | a %= b

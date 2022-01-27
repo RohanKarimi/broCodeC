@@ -9,6 +9,9 @@ int main(){
     // %lf = double
     // %d = integer
 
+    char number = 100;
+    printf("%c", number);
+
     // %.1 = decimal precision
     // %1 = minimum field width
     // %- = left align

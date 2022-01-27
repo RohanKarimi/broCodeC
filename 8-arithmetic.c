@@ -3,19 +3,17 @@
 int main(void){
     // arithmetic operators
 
-    // + (addition)
-    // - (subtraction)
-    // * (multiplication)
-    // / (division)
-    // % (modulus)
-    // + (increment)
-    // - (decrement)
+    // + (addition) 1 + 1 = 2
+    // - (subtraction) 4 - 2 = 2
+    // * (multiplication) 5 * 2 = 10
+    // / (division) 10 / 5 = 2
+    // % (modulus) 2 / 5 = 2 porque 2 dividido por 5 é 2.5 porém o computador arredonda pra baixo dando 2
+    // + (increment)   i = 5; i++. i == 6;
+    // - (decrement) i = 10; i--. i == 9;
 
-    // term truncated = arredondamento e.g. 2 / 5 = 2.5, but if it's an integer the result will be 2
-
-    int x = 6;
-    int y = 4;
-
+    int x = 10;
+    int y = 2;
+    printf("á ç");
     int z = x % y;
 
     printf("%d", z);
