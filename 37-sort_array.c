@@ -18,9 +18,11 @@ void sort(char array[], int size)
 
 void print_array(char array[], int size) // print each element of the array
 {
-	for (int i = 0; i < size; i++)
+	int i = 0;
+	while (i < size)
 	{
 		printf("%c ", array[i]);
+		i++;
 	}
 }
 
